@@ -1,8 +1,22 @@
-# React + Vite
+# React Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A react template that includes react testing, proptypes, react router, and tailwind css.
 
-Currently, two official plugins are available:
+## Suggested Settings
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The following are the VScode workspace settings that were used when creating this template:
+
+```
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript"],
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true
+}
+```
