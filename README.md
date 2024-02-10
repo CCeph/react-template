@@ -18,5 +18,4 @@ The following are the VScode workspace settings that were used when creating thi
   },
   "editor.formatOnSave": true
 }
-
 ```
