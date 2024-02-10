@@ -6,6 +6,15 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
+    "plugin:vitest-globals/recommended",
+  ],
+  overrides: [
+    {
+      files: ["./src/tests/**"],
+      env: {
+        "vitest-globals/env": true,
+      },
+    },
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
