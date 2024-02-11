@@ -15,9 +15,6 @@ If you would like to create a new repository on github using this template, then
 npm install
 ```
 
-4. (Recommended) If using VScode, use the suggested VScode workspace settings further below.
-5. (Recommended) If using VScode, install the Prettier, ESLint, and Tailwind CSS Intellisense extensions.
-
 If you would like to create a local copy of the repo without creating a new repo on github or affecting the original repo, then:
 
 1. Go to the main folder of the template repo.
