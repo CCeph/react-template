@@ -3,5 +3,7 @@ import App from "../App";
 
 it("renders heading", () => {
   render(<App />);
-  expect(screen.getByRole("heading").textContent).toMatch("Vite + React");
+  expect(screen.getByRole("heading", { name: /enjoy!/i }).textContent).toMatch(
+    "Enjoy!",
+  );
 });
